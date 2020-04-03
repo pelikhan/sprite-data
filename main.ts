@@ -13,6 +13,19 @@ namespace sprites {
     }
 
     /**
+     * Change a number in the data of a sprite by a given value
+     */
+    //% blockId=spriteDataSetNumber block="change $sprite=variables_get data $name by number $value"
+    //% group="Data"
+    //% weight=10
+    //% blockGap=8
+    export function changeDataNumberBy(sprite: Sprite, name: string, value: number) {
+        if (!sprite) return;
+        const d = sprite.data();
+        d[name] = (d[name] || 0) + value;
+    }
+
+    /**
      * Gets a number in the data of a sprite
      */
     //% blockId=spriteDataGetNumber block="$sprite=variables_get data $name as number"
@@ -41,7 +54,7 @@ namespace sprites {
     /**
      * Gets a number in the data of a sprite
      */
-    //% blockId=spriteDataGetNumber block="$sprite=variables_get data $name as number"
+    //% blockId=spriteDataGetNumber block="$sprite=variables_get data $name as string"
     //% group="Data"
     //% weight=10
     //% blockGap=8

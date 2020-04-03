@@ -3,13 +3,16 @@
     "version": "0.0.1",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "game": "*"
     },
     "files": [
         "main.ts",
         "README.md"
     ],
     "testFiles": [],
+    "testDependencies": {
+        "device": "*"
+    },
     "supportedTargets": [
         "arcade"
     ],

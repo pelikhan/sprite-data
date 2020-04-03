@@ -5,6 +5,24 @@
 This extensions adds block to store and read data 
 in sprites. The blocks are added to the bottom of the **sprites** toolbox.
 
+* Storing numbers
+
+```blocks
+let mySprite = sprites.create(sprites.food.smallApple, SpriteKind.Player)
+sprites.setDataNumber(mySprite, "life", 3)
+sprites.changeDataNumberBy(mySprite, "life", -1)
+let life = sprites.readDataNumber(mySprite, "life")
+```
+
+* Storing strings
+
+```blocks
+let mySprite = sprites.create(sprites.food.smallApple, SpriteKind.Player)
+sprites.setDataString(mySprite, "name", "alex")
+let name = sprites.readDataString(mySprite, "name")
+```
+
+
 ## Use this extension
 
 This repository can be added as an **extension** in MakeCode.

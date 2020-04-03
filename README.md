@@ -1,3 +1,7 @@
+---
+title: Manual
+---
+
 > Open this page at [https://pelikhan.github.io/sprite-data/](https://pelikhan.github.io/sprite-data/)
 
 ## Usage

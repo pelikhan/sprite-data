@@ -15,7 +15,7 @@ namespace sprites {
     /**
      * Change a number in the data of a sprite by a given value
      */
-    //% blockId=spriteDataSetNumber block="change $sprite=variables_get data $name by number $value"
+    //% blockId=spriteDataChangeNumber block="change $sprite=variables_get data $name by number $value"
     //% group="Data"
     //% weight=10
     //% blockGap=8
@@ -54,7 +54,7 @@ namespace sprites {
     /**
      * Gets a number in the data of a sprite
      */
-    //% blockId=spriteDataGetNumber block="$sprite=variables_get data $name as string"
+    //% blockId=spriteDataGetString block="$sprite=variables_get data $name as string"
     //% group="Data"
     //% weight=10
     //% blockGap=8

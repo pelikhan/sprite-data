@@ -7,7 +7,7 @@ namespace sprites {
     //% weight=10
     //% blockGap=8
     export function setDataNumber(sprite: Sprite, name: string, value: number) {
-        if (!sprite) return;
+        if (!sprite || !name) return;
         const d = sprite.data();
         d[name] = value;
     }
@@ -20,7 +20,7 @@ namespace sprites {
     //% weight=10
     //% blockGap=8
     export function changeDataNumberBy(sprite: Sprite, name: string, value: number) {
-        if (!sprite) return;
+        if (!sprite || !name) return;
         const d = sprite.data();
         d[name] = (d[name] || 0) + value;
     }
@@ -33,7 +33,7 @@ namespace sprites {
     //% weight=10
     //% blockGap=8
     export function readDataNumber(sprite: Sprite, name: string): number {
-        if (!sprite) return 0;
+        if (!sprite || !name) return 0;
         const d = sprite.data();
         return d[name] as number;
     }
@@ -46,7 +46,7 @@ namespace sprites {
     //% weight=10
     //% blockGap=8
     export function setDataString(sprite: Sprite, name: string, value: string) {
-        if (!sprite) return;
+        if (!sprite || !name) return;
         const d = sprite.data();
         d[name] = value;
     }
@@ -59,7 +59,7 @@ namespace sprites {
     //% weight=10
     //% blockGap=8
     export function readDataString(sprite: Sprite, name: string): string {
-        if (!sprite) return "";
+        if (!sprite || !name) return "";
         const d = sprite.data();
         return d[name] as string;
     }

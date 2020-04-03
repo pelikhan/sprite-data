@@ -1,5 +1,10 @@
 > Open this page at [https://pelikhan.github.io/sprite-data/](https://pelikhan.github.io/sprite-data/)
 
+## Usage
+
+This extensions adds block to store and read data 
+in sprites. The blocks are added to the bottom of the **sprites** toolbox.
+
 ## Use this extension
 
 This repository can be added as an **extension** in MakeCode.
@@ -16,13 +21,6 @@ To edit this repository in MakeCode.
 * open [https://arcade.makecode.com/](https://arcade.makecode.com/)
 * click on **Import** then click on **Import URL**
 * paste **https://github.com/pelikhan/sprite-data** and click import
-
-## Blocks preview
-
-This image shows the blocks code from the last commit in master.
-This image may take a few minutes to refresh.
-
-![A rendered view of the blocks](https://github.com/pelikhan/sprite-data/raw/master/.github/makecode/blocks.png)
 
 #### Metadata (used for search, rendering)
 
